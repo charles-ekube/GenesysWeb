@@ -1,2 +1,2 @@
-# GenesysWeb
-A desktop version and mobile version of a webapp using React
+# GenesysWebApp
+A desktop version and mobile version using ReactJS
