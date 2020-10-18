@@ -1,6 +1,6 @@
 import React from 'react';
-import './faq.css';
 import './Pages.css';
+import './media.css';
 import LearnableNav from './LearnableNav';
 
 
