@@ -12,7 +12,7 @@ class Apply extends React.Component {
                 <section className="apply-intro">
                     <h1 id="apply-intro-head">Apply Your Knowledge</h1>
                     <div id="apply-intro-img">
-                        <img src={require('./stand-project/apply1.png')}/>
+                        <img src={require('./stand-project/apply1.png')} alt="apply1"/>
                     </div>
                     <article id="apply-intro-text">
                         <p>
@@ -29,7 +29,7 @@ class Apply extends React.Component {
                     </article>
                 </section>
                 <section className="application-steps">
-                    <img src={require('./stand-project/applyimg.png')}/>
+                    <img src={require('./stand-project/applyimg.png')} alt="applyimg"/>
                     <article>
                         <h2>
                             How To Get In
@@ -52,7 +52,7 @@ class Apply extends React.Component {
                             curriculum that contains everything you need to prepare for the
                             physical and technical assessment.
                         </p>
-                        <a href="#">APPLY HERE</a>
+                        <a href="home">APPLY HERE</a>
                     </article>
                     <article>
                         <h2>
