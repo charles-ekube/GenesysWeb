@@ -1,7 +1,6 @@
 import React from 'react';
 import LearnableNav from './LearnableNav';
 import './Pages.css';
-import './faq.css';
 import './media.css';
 import {Link} from 'react-router-dom';
 
