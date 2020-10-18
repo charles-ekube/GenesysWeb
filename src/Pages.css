@@ -109,13 +109,14 @@ body {
     color:#273043;
     padding:15px 100px 20px 30px;
   }
-  .learnable-section>article>a, 
-  .agora-section>article>a, 
-  .startzone-section>article>a {
+  .learnable-section>article>span, 
+  .agora-section>article>span, 
+  .startzone-section>article>span {
     color:#03c49c;
     align-self: start;
-    font-size:16px;
+    font-size:15px;
     padding:30px; 
+    text-decoration: underline;
   }
 .agora-section {
     background-color: #eee;
@@ -167,24 +168,29 @@ body {
     margin-left: -40px;
 
 }
-.card1>span>a {
+.card1>span>p {
     color: #172559;
     font-size: 35px;
     width: 30%;
     font-weight: bolder;
+    text-decoration: underline;
 }
-.card2>span>a {
+.card2>span>p {
     color: #172559;
     font-size: 20px;
     font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
 }
-.card3>span {
-    width: 60%;
+.card3>span>p {
+    width: 70%;
+    margin: auto;
+    text-decoration: underline;
 }
-.card3>span>a {
+.card3>span>p {
     color: #172559;
     font-size: 20px;
-    width: 10px;
+    text-align: center;
     font-weight: bolder;
 }
 .card3>img {
@@ -214,8 +220,9 @@ body {
 .teams-section>div>p {
     padding-bottom: 30px;
 }
-.teams-section>div>a {
+.teams-section>div>span {
      color: #07a893;
+     text-decoration: underline;
 }
 
 
@@ -265,7 +272,7 @@ body {
     padding: 15px;
     font-weight: bold;
 }
-.subscribe-section>div>form>a {
+.subscribe-section>div>form>p {
     color: #273043;
     font-size: 13px;
 }
@@ -295,10 +302,11 @@ body {
   width: 40%;
   padding-top:30px;
 }
-.brochue-download>a {
+.brochue-download>span {
   font-size: 25px;
   color:#17225a;
   font-weight: bold;
+  text-decoration: underline;
 }
 .learnable-page-intro {
   padding-top:100px;
@@ -604,10 +612,11 @@ text-align: center;
   font-size:50px;
   padding: 30px 10px;
 }
-.journall a {
+.journall p {
   font-size: 14px;
   color: #03c49c;
   padding: 10px;
+  text-decoration: underline;
 }
 .mentions {
   padding:100px 30px;
@@ -768,9 +777,12 @@ width: 100%;
 .journal-inspiration>div {
 padding: 50px;
 }
-.journal-inspiration>div>a {
+.journal-inspiration>div>h6 {
 color: #15D1AA;
 padding: 20px 0 15px 0;
+text-decoration: underline;
+font-size:18px;
+font-weight:lighter;
 }
 .journal-inspiration>div>h2 {
 color: #17255A;
@@ -782,20 +794,21 @@ color: #17255A;
 padding: 20px 0;
 font-size: 16px;
 }
-.journal-author {
+#journal-author {
 display: grid;
 grid-template-columns: 20% 75%;
 padding: 20px 0;
 color: #17255A;
 }
-.journal-author>img {
+#journal-author>img {
 width: 70px;
 height: 70px;
 border-radius: 50%;
 /* margin: 10px 10px 0 0; */
 }
-.journal-author>span {
+#journal-author>span {
 align-self: center;
+font-size:12px;
 }
 
 .journal-cards {
@@ -815,19 +828,22 @@ flex-direction: column;
 .journal-cards-container>article>img {
 width: 100%;
 }
-.journal-cards-container>article>a {
+.journal-cards-container>article>h6 {
 color: #15D1AA;
 padding: 10px 0;
+text-decoration: underline;
+font-size:18px;
+font-weight: lighter;
 }
 .journal-cards-container>article>h2 {
 color: #17255A;
 padding: 10px 0;
 font-size: 20px;
 }
+
 .journal-cards-container>article>span {
-color: #17255A;
-font-size: 13px;
-padding: 10px 0;
+  color:#17255A;
+  font-size:12px;  
 }
 .journal-cards .load-more {
 width: 100%;
