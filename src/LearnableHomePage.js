@@ -22,7 +22,7 @@ class LearnableHomePage extends React.Component {
                         <p>
                             Click lonk to download...
                         </p>
-                        <a href="#">Learnable '20 Brochue</a>
+                        <span>Learnable '20 Brochue</span>
                     </article>
                 </section>
                 <section className="learnable-page-intro">
@@ -53,8 +53,8 @@ class LearnableHomePage extends React.Component {
                            <img src={require("./stand-project/scrolldown.png")} alt="arrow"/>
                        </aside>
                        <aside className="intro-bg-img">
-                            <img src={require("./stand-project/home1.png")} alt="we" id="intro-img1"/>
-                            <img src={require("./stand-project/home.png")} alt="we" id="intro-img2"/>
+                            <img src={require("./stand-project/home1.png")} alt="home" id="intro-img1"/>
+                            <img src={require("./stand-project/home.png")} alt="home2" id="intro-img2"/>
                             <div className="play-btn">
                                 <span><i className="fa fa-play fa-2x" style={{color:"#fff"}}></i></span>
                                  <p>Discover the Learnable Experience</p>
@@ -87,12 +87,12 @@ class LearnableHomePage extends React.Component {
                                 designers, preparing them for the industry. 
                             </p>
                         </div>
-                        <img src={require('./stand-project/softdev.png')}/>
+                        <img src={require('./stand-project/softdev.png')} alt="a developer"/>
                     </article>
                 </section>
                 <section>
                     <article className="grid-box1 unusual-learning">
-                        <img src={require('./stand-project/unusual.png')}/>
+                        <img src={require('./stand-project/unusual.png')} alt="learning"/>
                         <div>
                             <h2>An Unusual Learning Experience</h2>
                             <p>
@@ -229,13 +229,13 @@ class LearnableHomePage extends React.Component {
                                 produce quality stuff in good time with high consistency. 
                             </p>
                         </div>
-                        <img src={require('./stand-project/eligible.png')}/>
+                        <img src={require('./stand-project/eligible.png')} alt="eligible"/>
                     </article>
                     </section>
                     <section>
                     <article className="grid-box1 culture">
                         <div className="culture-overlay">
-                            <img src={require('./stand-project/culture.png')}/>
+                            <img src={require('./stand-project/culture.png')} alt="culture"/>
                             <div className="play-btn2">
                                 <span><i className="fa fa-play fa-2x" style={{color:"#fff"}}></i></span>
                             </div>
@@ -282,52 +282,52 @@ class LearnableHomePage extends React.Component {
                                 </div>
                                 <ul className="grid-box2">
                                     <li>
-                                    <img src={require('./stand-project/fun1.png')}/>
+                                    <img src={require('./stand-project/fun1.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun2.png')}/>
+                                    <img src={require('./stand-project/fun2.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun3.png')}/>
+                                    <img src={require('./stand-project/fun3.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun4.png')}/>
+                                    <img src={require('./stand-project/fun4.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun5.png')}/>
+                                    <img src={require('./stand-project/fun5.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun6.png')}/>
+                                    <img src={require('./stand-project/fun6.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun7.png')}/>
+                                    <img src={require('./stand-project/fun7.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun8.png')}/>
+                                    <img src={require('./stand-project/fun8.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun9.png')}/>
+                                    <img src={require('./stand-project/fun9.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun10.png')}/>
+                                    <img src={require('./stand-project/fun10.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun11.png')}/>
+                                    <img src={require('./stand-project/fun11.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun12.png')}/>
+                                    <img src={require('./stand-project/fun12.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun13.png')}/>
+                                    <img src={require('./stand-project/fun13.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun14.png')}/>
+                                    <img src={require('./stand-project/fun14.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun15.png')}/>
+                                    <img src={require('./stand-project/fun15.png')} alt="fun"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/fun16.png')}/>
+                                    <img src={require('./stand-project/fun16.png')} alt="fun"/>
                                     </li>
                                 </ul>
                             </div>
@@ -338,36 +338,36 @@ class LearnableHomePage extends React.Component {
                         <div id="experts-grid">
                             <ul className="grid-box3">
                                 <li>
-                                    <img src={require('./stand-project/nnamdi.png')}/>
+                                    <img src={require('./stand-project/nnamdi.png')} alt="nnamdi"/>
                                     <h3>Nnamdi</h3>
                                     <p>Managing Director</p>
                                 </li>
                                 <li>
-                                    <img src={require('./stand-project/osita.png')}/>
+                                    <img src={require('./stand-project/osita.png')} alt="osita"/>
                                     <h3>Ositadinma</h3>
                                     <p>Learnable Coordinator</p>
                                 </li>
                                 <li>
-                                    <img src={require('./stand-project/idowu.png')}/>
+                                    <img src={require('./stand-project/idowu.png')} alt="idowu"/>
                                     <h3>Idowu</h3>
                                     <p>Scrum Proffessional</p>
                                 </li>
                                 <li>
-                                    <img src={require('./stand-project/ezra.png')}/>
+                                    <img src={require('./stand-project/ezra.png')} alt="ezra"/>
                                     <h3>Ezra</h3>
                                     <p>Ass. Learnable
                                          Coordinator
                                     </p>
                                 </li>
                                 <li>
-                                    <img src={require('./stand-project/david.png')}/>
+                                    <img src={require('./stand-project/david.png')} alt="david"/>
                                     <h3>David</h3>
                                     <p>
                                         Design Lead
                                     </p>
                                 </li>
                                 <li>
-                                    <img src={require('./stand-project/emma.png')}/>
+                                    <img src={require('./stand-project/emma.png')} alt="emma"/>
                                     <h3>Emmanuel</h3>
                                     <p>Software Lead</p>
                                 </li>
@@ -404,52 +404,52 @@ class LearnableHomePage extends React.Component {
                             <div>
                                 <ul className="grid-box2">
                                     <li>
-                                    <img src={require('./stand-project/class1.png')}/>
+                                    <img src={require('./stand-project/class1.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class2.png')}/>
+                                    <img src={require('./stand-project/class2.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class3.png')}/>
+                                    <img src={require('./stand-project/class3.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class4.png')}/>
+                                    <img src={require('./stand-project/class4.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class5.png')}/>
+                                    <img src={require('./stand-project/class5.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class6.png')}/>
+                                    <img src={require('./stand-project/class6.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class7.png')}/>
+                                    <img src={require('./stand-project/class7.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class8.png')}/>
+                                    <img src={require('./stand-project/class8.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class9.png')}/>
+                                    <img src={require('./stand-project/class9.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class10.png')}/>
+                                    <img src={require('./stand-project/class10.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class11.png')}/>
+                                    <img src={require('./stand-project/class11.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class12.png')}/>
+                                    <img src={require('./stand-project/class12.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class13.png')}/>
+                                    <img src={require('./stand-project/class13.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class14.png')}/>
+                                    <img src={require('./stand-project/class14.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class15.png')}/>
+                                    <img src={require('./stand-project/class15.png')} alt="new"/>
                                     </li>
                                     <li>
-                                    <img src={require('./stand-project/class16.png')}/>
+                                    <img src={require('./stand-project/class16.png')} alt="new"/>
                                     </li>
                                 </ul>
                             </div>
@@ -457,7 +457,7 @@ class LearnableHomePage extends React.Component {
                     </section>
                     <section>
                     <article className="grid-box1 knowledge">
-                    <img src={require('./stand-project/culture.png')}/>
+                    <img src={require('./stand-project/culture.png')} alt="new"/>
                     <div>
                         <h2>Apply Your knowledge</h2>
                         <p>
@@ -514,11 +514,11 @@ class LearnableHomePage extends React.Component {
                     <section>
                     <article className="journall">
                         <h2>Jouurnal</h2>
-                        <a href="#">VIEW ALL</a>
+                        <p>VIEW ALL</p>
                         <div className="journal-cards-container">
                         <article>
                             <img src={require("./stand-project/journal-intro.png")} alt="journal" />
-                            <a href="#">INSPIRATION</a>
+                            <p>INSPIRATION</p>
                             <h2>
                                 Learn Design Thinking
                                 like a Pro and Build
@@ -530,7 +530,7 @@ class LearnableHomePage extends React.Component {
                         </article>
                         <article>
                             <img src={require("./stand-project/journal-intro.png")} alt="journal" />
-                            <a href="#">INSPIRATION</a>
+                            <p>INSPIRATION</p>
                             <h2>
                                 Learn Design Thinking
                                 like a Pro and Build
@@ -542,7 +542,7 @@ class LearnableHomePage extends React.Component {
                         </article>
                         <article>
                             <img src={require("./stand-project/journal-intro.png")} alt="journal" />
-                            <a href="#">INSPIRATION</a>
+                            <p>INSPIRATION</p>
                             <h2>
                                 Learn Design Thinking
                                 like a Pro and Build
@@ -554,7 +554,7 @@ class LearnableHomePage extends React.Component {
                         </article>
                         <article>
                             <img src={require("./stand-project/journal-intro.png")} alt="journal" />
-                            <a href="#">INSPIRATION</a>
+                            <p>INSPIRATION</p>
                             <h2>
                                 Learn Design Thinking
                                 like a Pro and Build
@@ -588,13 +588,13 @@ class LearnableHomePage extends React.Component {
                     </article>
                 </section>
                 <section className="subscribe-section" id="subscribe-section">
-                    <img src={require("./stand-project/scrollup.png")}/>
+                    <img src={require("./stand-project/scrollup.png")} alt="new"/>
                     <div style={{backgroundColor:"#EAC435"}}>
                         <h2>Stay Up To Date On What We Are Doing And New Learning Opportunities</h2>
                         <form>
                             <input type="email" placeholder="YOUR EMAIL"/>
                             <button className="subscribe-btn">SUBSCRIBE</button>
-                            <a>View Privacy Policy</a>
+                            <p>View Privacy Policy</p>
                         </form>
                     </div>
                 </section>
