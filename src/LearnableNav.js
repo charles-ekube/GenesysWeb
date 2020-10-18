@@ -26,7 +26,7 @@ class LearnableNav extends React.Component {
                         <Link to="/FaqPage" className="link">FAQ</Link>
                     </li>
                 </ul>
-                {/* </Router> */}
+              
             </nav>
         )
     }
