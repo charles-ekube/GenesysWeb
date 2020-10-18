@@ -1,5 +1,6 @@
 import React from 'react';
 import './Pages.css';
+import './media.css';
 
 class LandingPage extends React.Component {
     render() {
