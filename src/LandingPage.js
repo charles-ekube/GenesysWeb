@@ -22,7 +22,7 @@ class LandingPage extends React.Component {
                             <img src={require("./stand-project/landing1.png")} alt="we" id="intro-img1"/>
                             <img src={require("./stand-project/landing.png")} alt="we" id="intro-img2"/>
                             <div className="play-btn">
-                                <span></span>
+                                <span><i className="fa fa-play fa-2x" style={{color:"#fff"}}></i></span>
                                  <p>#Wearegenesys</p>
                             </div>
                        </aside>
@@ -67,15 +67,15 @@ class LandingPage extends React.Component {
                 </section>
                 <section className="other-things-we-do-section">
                         <ul>
-                            <li className="item1">
+                            <li className="card1">
                             <img src={require("./stand-project/genesysignite.png")}/>
                             <span><a href="#">Genesys Ignite</a></span>
                             </li>
-                            <li className="item2">
+                            <li className="card2">
                             <img src={require("./stand-project/codeville.png")}/>
                             <span><a href="#">CodeVille</a></span>
                             </li>
-                            <li className="item3">
+                            <li className="card3">
                             <img src={require("./stand-project/pinkcode.png")}/>
                             <span><a href="#">Pink summer of code</a></span>
                             </li>
