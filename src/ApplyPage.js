@@ -29,7 +29,7 @@ class Apply extends React.Component {
                     </article>
                 </section>
                 <section className="application-steps">
-                    <img src={require('./stand-project/applyimg.png')} alt="applyimg"/>
+                    <img src={require('./stand-project/applyimg.png')} alt="apply1"/>
                     <article>
                         <h2>
                             How To Get In
@@ -52,7 +52,7 @@ class Apply extends React.Component {
                             curriculum that contains everything you need to prepare for the
                             physical and technical assessment.
                         </p>
-                        <a href="home">APPLY HERE</a>
+                        <span>APPLY HERE</span>
                     </article>
                     <article>
                         <h2>
@@ -89,14 +89,14 @@ class Apply extends React.Component {
                     </article>
                 </section>
                 <section className="subscribe-section apply-sub" id="subscribe-section">
-                    <img src={require("./stand-project/scrollup.png")}/>
+                    <img src={require("./stand-project/scrollup.png")} alt="apply1"/>
                     <div style={{backgroundColor:"#EAC435"}}>
                     <span id="apply-sub"></span>
                         <h2>Stay Up To Date On What We Are Doing And New Learning Opportunities</h2>
                         <form>
                             <input type="email" placeholder="YOUR EMAIL"/>
                             <button className="subscribe-btn">SUBSCRIBE</button>
-                            <a>View Privacy Policy</a>
+                            <p>View Privacy Policy</p>
                         </form>
                     </div>
                 </section>
