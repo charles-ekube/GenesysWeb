@@ -316,6 +316,12 @@ body {
           display: grid;
           grid-template-columns: repeat(1, 1fr);
       }
+      .grid-box1 li {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
       .grid-box3 {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -391,7 +397,9 @@ body {
   background-color:#03cea4;
   border:none;
   border-radius: 50%;
-  padding: 20px 25px;
+  width: 60px;
+  height: 60px;
+  padding: 0;
   text-align: center;
   font-size: 12px;
   }
@@ -404,7 +412,9 @@ body {
     background-color:#03cea4;
     border:none;
     border-radius: 50%;
-    padding: 20px;
+    width: 70px;
+  height: 70px;
+  padding:0;
     text-align: center;
     font-size: 12px;
     }
@@ -449,6 +459,9 @@ body {
     padding: 50px;
     text-align:center ;  
   }
+  .faq ul li {
+    text-align: center;
+  }
   .journall {
     background-color: #eee;
   }
@@ -458,7 +471,7 @@ body {
     text-align: center;
   }
   .journall a {
-    display: none;
+    /* display: none; */
   }
   .mentions {
     padding:50px 30px;
@@ -489,6 +502,8 @@ body {
    .software-intro {
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 100px;
 }
 #software-intro-head {
     order: 2;
@@ -550,6 +565,8 @@ padding: 10px;
 .product-intro {
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 100px;
 }
 #product-intro-head {
     order: 2;
@@ -613,7 +630,10 @@ font-size: 16px;
 .apply-intro {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 0;
+    position: relative;
+    top: 100px;
 }
 #apply-intro-head {
     order: 2;
@@ -632,14 +652,15 @@ font-size: 16px;
   }
  .apply-intro>h1 {
     color: #17255A;
-    font-size: 40px;
-    padding: 0 30px;
+    font-size: 25px;
+    padding: 20px 30px;
     font-weight: bolder;
     text-align: center;
  } 
  .apply-intro>article>p {
-     padding: 20px;
-     font-size: 18px;
+     padding: 10px;
+     font-size: 16px;
+     margin-bottom: 12px;
      text-align: center;
  }
  .application-steps {
@@ -647,11 +668,13 @@ font-size: 16px;
  }
  .application-steps>img {
      width: 100%;
+     margin-top: 100px;
  }
  .application-steps>article {
     padding:30px 10px;
     width:100%;
     text-align: center;
+    margin: 0;
  }
  .application-steps>article>h2 {
      color: #363E50;
@@ -678,11 +701,14 @@ font-size: 16px;
     padding: 0;
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 100px;
 }
 .journal-head {
     background-color: #eee;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px;
@@ -718,7 +744,7 @@ font-size: 16px;
 }
 .journal-inspiration>div>p {
     color: #17255A;
-    padding: 20px 0;
+    padding: 50px 0;
     font-size: 16px;
 }
 #journal-author {
@@ -767,7 +793,10 @@ font-size: 16px;
 .questions-intro {
   display:flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 0 ;
+  position: relative;
+    top: 100px;
 }
 #questions-intro-img {
   order: 1;
@@ -782,6 +811,7 @@ font-size: 16px;
 text-align: center;
 font-size: 50px;
 padding:30px 0;
+margin: 50px;
 }
 .questions-link ul {
   display: flex;
@@ -792,6 +822,9 @@ padding:30px 0;
   text-decoration:none;
   font-weight: normal;
   margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 } 
 .questions-link>ul>li {
   border-bottom: 0.1px solid #ccc;
@@ -799,6 +832,8 @@ padding:30px 0;
   text-align: center;
   padding: 0 10px 20px 10px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 10px;
 }
 /* FaqPage End */

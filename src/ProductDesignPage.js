@@ -10,7 +10,7 @@ class ProductDesign extends React.Component {
             <main>
                 <LearnableNav/>
                 <section className="product-intro">
-                    <h1 id="product-intro-head">The Learnable Software Developer</h1>
+                    <h1 id="product-intro-head">The Learnable Product Designers</h1>
                     <div id="product-intro-img">
                         <img src={require('./stand-project/softdev.png')} id="product-img" alt="software"/>
                     </div>

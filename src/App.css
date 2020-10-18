@@ -207,11 +207,12 @@ footer>.social-section {
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
     /* position: fixed; */
   }
   .main-nav .logo{
-    width:70%;
+    width:50%;
+    align-self:center;
   }
   .nav-links {
     display: none !important;
@@ -222,12 +223,14 @@ footer>.social-section {
   .main-nav .mobile-nav-btn {
     display: block;
     text-align: right;
-    padding-top: 15px;
+    padding-top: 0;
   }
   .main-nav .mobile-nav-btn>button {
     padding: 7px;
     background-color: inherit;
     border:none;
+    position: relative;
+    top:-30px;
   }
   .learnable-nav {
     display: none;

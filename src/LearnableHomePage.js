@@ -513,8 +513,11 @@ class LearnableHomePage extends React.Component {
                     </section>
                     <section>
                     <article className="journall">
-                        <h2>Jouurnal</h2>
-                        <p>VIEW ALL</p>
+                        <h2>Journal</h2>
+                        <Link to="/JournalPage" style={{color:"#15D1BD"}}>
+                            VIEW ALL
+                        </Link>
+                        
                         <div className="journal-cards-container">
                         <article>
                             <img src={require("./stand-project/journal-intro.png")} alt="journal" />

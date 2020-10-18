@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './App.css';
 
 class LearnableNav extends React.Component {
     render() {
@@ -26,7 +25,7 @@ class LearnableNav extends React.Component {
                         <Link to="/FaqPage" className="link">FAQ</Link>
                     </li>
                 </ul>
-              
+                {/* </Router> */}
             </nav>
         )
     }
