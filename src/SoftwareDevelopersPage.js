@@ -11,7 +11,7 @@ class SoftwareDevelopers extends React.Component {
                 <section className="software-intro">
                     <h1 id="software-intro-head">The Learnable Software Developer</h1>
                     <div id="software-intro-img">
-                        <img src={require('./stand-project/softdev.png')}/>
+                        <img src={require('./stand-project/softdev.png')} alt="softdev"/>
                     </div>
                     <article id="software-intro-text">
                         <p>
@@ -37,7 +37,7 @@ class SoftwareDevelopers extends React.Component {
                    </q>
                 </article>
                 <section className="software-expectations">
-                    <img src={require('./stand-project/softdev2.png')}/>
+                    <img src={require('./stand-project/softdev2.png')} alt="softdev2"/>
                     <article>
                         <h2>
                             We Expect You To...
@@ -70,13 +70,13 @@ class SoftwareDevelopers extends React.Component {
                     </article>
                 </section>
                 <section className="subscribe-section" id="subscribe-section">
-                    <img src={require("./stand-project/scrollup.png")}/>
+                    <img src={require("./stand-project/scrollup.png")} alt="scrollup"/>
                     <div style={{backgroundColor:"#EAC435"}}>
                         <h2>Stay Up To Date On What We Are Doing And New Learning Opportunities</h2>
                         <form>
                             <input type="email" placeholder="YOUR EMAIL"/>
                             <button className="subscribe-btn">SUBSCRIBE</button>
-                            <a>View Privacy Policy</a>
+                            <a href="#">View Privacy Policy</a>
                         </form>
                     </div>
                 </section>
