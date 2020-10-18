@@ -55,9 +55,10 @@ body {
   .startzone-section {
     display:flex;
     flex-direction: column;
-    padding:50px 0; 
+    padding:100px 0 0 0; 
     width: 100%;
   }
+  
   .learnable-section>img, 
   .agora-section>img,
   .startzone-section>img {
@@ -86,9 +87,9 @@ body {
       text-align: center;
       padding:10px;
   }
-  .learnable-section>article>a, 
-  .agora-section>article>a, 
-  .startzone-section>article>a {
+  .learnable-section>article>span, 
+  .agora-section>article>span, 
+  .startzone-section>article>span {
     color:#03c49c;
     font-size:16px;
     padding:30px;
@@ -132,8 +133,9 @@ body {
     text-align: center;
     margin-left: 0;
 }
-.card1>span>a {
+.card1>span>p {
    font-size: 20px;
+   width: 100%;
 }
 
 .teams-section {
@@ -162,9 +164,8 @@ body {
   width: 100%;
   text-align: center;
 }
-.teams-section>div>a {
-   color: #07a893;
-   text-align: center;
+.teams-section>div>span {
+  text-align: center;
 }
 .subscribe-section {
   display: grid;
@@ -202,7 +203,6 @@ body {
   border-bottom: 2px solid #273043;
 }
 ::placeholder {
-  color: #273043;
   font-size: 8px;
 }
 .subscribe-section>div>form .subscribe-btn {
@@ -215,8 +215,7 @@ body {
   padding: -15px 15px;
   font-weight: bold;
 }
-.subscribe-section>div>form>a {
-  color: #273043;
+.subscribe-section>div>form>p {
   font-size: 9px;
   text-align: center;
 }
@@ -239,7 +238,7 @@ body {
         justify-content: center;
         width: 100%;
       }
-      .brochue-download>a {
+      .brochue-download>span {
         font-size: 20px;
       }
       .learnable-page-intro {
@@ -663,7 +662,7 @@ font-size: 16px;
     color: #363E50;
     padding: 10px 0;
 }
-.application-steps>article>a {
+.application-steps>article>span {
     color:#15D1AA;
     font-size: 16px;
     padding: 10px 0;
@@ -708,7 +707,7 @@ font-size: 16px;
     text-align: center;
     background-color: #eee;
 }
-.journal-inspiration>div>a {
+.journal-inspiration>div>h6 {
     color: #15D1AA;
     padding: 20px 0 15px 0;
 }
@@ -722,20 +721,20 @@ font-size: 16px;
     padding: 20px 0;
     font-size: 16px;
 }
-.journal-author {
+#journal-author {
     display: grid;
     grid-template-columns: 100%;
     justify-content: center;
     padding: 20px 0;
     color: #17255A;
 }
-.journal-author>img {
+#journal-author>img {
     width: 70px;
     height: 70px;
     border-radius: 50%;
     margin: auto;
 }
-.journal-author>span {
+#journal-author>span {
     align-self: center;
     padding: 20px 0;
 }
@@ -755,7 +754,7 @@ font-size: 16px;
     flex-direction: column;
     text-align: center;
 }
-.journal-cards-container>article>a {
+.journal-cards-container>article>h6 {
     color: #15D1AA;
     padding: 10px 0;
 }
