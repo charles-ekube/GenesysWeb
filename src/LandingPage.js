@@ -40,7 +40,7 @@ class LandingPage extends React.Component {
                             in the technology industry. Find out how Genesys is helping
                             them do it.
                         </p>
-                        <a href="#">LEARN MORE</a>
+                        <span>LEARN MORE</span>
                     </article>
                 </section>
                 <section className="agora-section">
@@ -51,7 +51,7 @@ class LandingPage extends React.Component {
                             Find out how our co-working spaces can helpvyou enjoy the
                             work thar you do.
                         </p>
-                        <a href="#">LEARN MORE</a>
+                        <span>LEARN MORE</span>
                     </article>
                     <img src={require("./stand-project/agora.png")} alt="learnable" id="agora-img"/>
                 </section>
@@ -63,29 +63,29 @@ class LandingPage extends React.Component {
                             The business environment is harsh for early-stage businesses.
                             We can help you rise above it all. 
                         </p>
-                        <a href="#">HERE'S NOW</a>
+                        <span>HERE'S NOW</span>
                     </article>
                 </section>
                 <section className="other-things-we-do-section">
                         <ul>
                             <li className="card1">
-                            <img src={require("./stand-project/genesysignite.png")}/>
-                            <span><a href="#">Genesys Ignite</a></span>
+                            <img src={require("./stand-project/genesysignite.png")} alt="genesysignite"/>
+                            <span><p>Genesys Ignite</p></span>
                             </li>
                             <li className="card2">
-                            <img src={require("./stand-project/codeville.png")}/>
-                            <span><a href="#">CodeVille</a></span>
+                            <img src={require("./stand-project/codeville.png")} alt="codeville"/>
+                            <span><p>CodeVille</p></span>
                             </li>
                             <li className="card3">
-                            <img src={require("./stand-project/pinkcode.png")}/>
-                            <span><a href="#">Pink summer of code</a></span>
+                            <img src={require("./stand-project/pinkcode.png")} alt="pinkcode"/>
+                            <span><p>Pink summer of code</p></span>
                             </li>
                             
                         </ul>
                     <h2>Other things we do</h2>
                 </section>
                 <section className="teams-section">
-                    <img src={require("./stand-project/teams.png")}/>
+                    <img src={require("./stand-project/teams.png")} alt="teams"/>
                     <div>
                         <h2>The Best Team In The World</h2>
                         <p>
@@ -93,17 +93,17 @@ class LandingPage extends React.Component {
                             has to offer.They are really passionate about making
                             a difference.
                         </p>
-                        <a href="#">SEE TEAM</a>
+                        <span>SEE TEAM</span>
                     </div>
                 </section>
                 <section className="subscribe-section">
-                    <img src={require("./stand-project/scrollup.png")}/>
+                    <img src={require("./stand-project/scrollup.png")} alt="scrollup"/>
                     <div>
                         <h2>Stay Up To Date On What We Are Doing And New Learning Opportunities</h2>
                         <form>
                             <input type="email" placeholder="YOUR EMAIL"/>
                             <button className="subscribe-btn">SUBSCRIBE</button>
-                            <a>View Privacy Policy</a>
+                            <p>View Privacy Policy</p>
                         </form>
                     </div>
                 </section>
