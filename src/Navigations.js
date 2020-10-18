@@ -13,12 +13,19 @@ function Navigation() {
               <li>
                 <button onClick={() => setShowMenu(false)}><i className="fa fa-times fa-2x"></i></button>
               </li>
-              <li><Link to="/LearnableHomePage" className="navlink">LEARNABLE</Link></li>
-              <li><a href="#">AGORA</a></li>
-              <li><a href="#">STARTZONE</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">CONTACT</a></li>
-              <li><a href="#">DEVSTUDIO</a></li>
+              <li>
+                <Link
+                    to="/LearnableHomePage"
+                    className="navlink"
+                    onClick={() => setShowMenu(false)}>
+                    LEARNABLE
+                </Link>
+              </li>
+              <li>AGORA</li>
+              <li>STARTZONE</li>
+              <li>ABOUT</li>
+              <li>CONTACT</li>
+              <li>DEVSTUDIO</li>
           </ul>
         </div>
   }
@@ -32,10 +39,10 @@ function Navigation() {
             <div className="nav-links">
               <ul>
                 <li><Link to="/LearnableHomePage" className="navlink">LEARNABLE</Link></li>
-                <li><a>AGORA</a></li>
-                <li><a>STARTZONE</a></li>
-                <li><a>ABOUT</a></li>
-                <li><a>CONTACT</a></li>
+                <li>AGORA</li>
+                <li>STARTZONE</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
               </ul>
             </div>
             <div className="devstudio-nav-link">
