@@ -1,7 +1,7 @@
 import React from 'react';
 import LearnableNav from './LearnableNav';
 import './Pages.css';
-import './softdev.css';
+import './media.css';
 
 
 class Apply extends React.Component {
