@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Navigation from './Navigations';
 import LandingPage from './LandingPage';
 import FaqPage from './FaqPage';
@@ -10,6 +10,7 @@ import JournalPage from './JournalPage';
 import LearnableHomePage from './LearnableHomePage';
 import Footer from './Footer';
 import './Pages.css';
+import './media.css';
 
 
 class App extends React.Component {
