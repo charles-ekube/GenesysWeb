@@ -1,17 +1,31 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Code Pro', monospace;
 }
-@media only screen and (min-width:300px) and (max-width: 765px) {
+@media only screen and (min-width:300px) and (max-width: 800px) {
 
   #root {
     width: 100%;
   }
 
   /* LandingPage */
+  .landing-page-main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro-section>h2 {
+    order: 1;
+  }
+  .intro-section>div {
+    order: 2;
+  }
+  .intro-section>p {
+    order: 3;
+  }
     .intro-section {
-        padding: 0;
+        padding: 30px 0 70px 0;
         display: flex;
         flex-direction: column;
+        top:30px;
       }
     .intro-section>h2, 
   .intro-section>p {
@@ -50,12 +64,15 @@ body {
     color: #fff;
     padding: 0;
   }
+ 
+
   .learnable-section,
   .agora-section, 
   .startzone-section {
     display:flex;
     flex-direction: column;
-    padding:100px 0 0 0; 
+    margin:0 0 50px 0;
+    padding:20px; 
     width: 100%;
   }
   
@@ -105,7 +122,7 @@ body {
     background-color: #eee;
     display: grid;
     grid-template-columns: 100%;
-    padding: 50px 10px;
+    padding: 100px 10px;
     width: 100%;
 }
 .other-things-we-do-section>h2 {
@@ -131,15 +148,21 @@ body {
     align-items: center;
     padding: 10px ;
     text-align: center;
-    margin-left: 0;
-}
-.card1>span>p {
+   }
+   .card2, .card3 {
+      width: 100%;
+   }
+.card1>span>p,
+.card2>span>p,
+.card3>span>p
+ {
    font-size: 20px;
    width: 100%;
+   padding: 10px 0;
 }
-
+ 
 .teams-section {
-  padding: 30px 0;
+  padding: 20px;
   background-color: #17255a;
   display: flex;
   flex-direction: column;
@@ -152,20 +175,21 @@ body {
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  padding:0 20px;
+  padding:10px;
 }
 .teams-section>div>h2 {
-  font-size: 20px;
-  padding:20px 0;
+  font-size: 25px;
+  padding:15px 0;
   text-align: center;
 }
 .teams-section>div>p {
-  font-size: 10px;
+  font-size: 16px;
   width: 100%;
   text-align: center;
 }
 .teams-section>div>span {
   text-align: center;
+  padding: 20px 0;
 }
 .subscribe-section {
   display: grid;
@@ -224,12 +248,15 @@ body {
 
   /* LearnablePage */
     .learnable-ad {
-        padding: 70px 20px;
+        padding: 80px 20px;
         display: flex;
         flex-direction: column;
         text-align: center;
         position: relative;
-        top:71px;
+        top:50px;
+      }
+      .learnable-ad .close-ad{
+        display: block;
       }
       .coming-soon {
         width: 100%;
@@ -259,7 +286,7 @@ body {
       .learnable-page-intro .stickers {
         display: flex;
         width: 100%;
-        padding: 50px 5px;
+        padding: 75px 3px;
         justify-content: space-between;
         align-items: center;
         position: relative;
@@ -303,14 +330,17 @@ body {
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
         padding: 0;
+        font-size: 30px;
       }
       .statistics ul li {
         text-align: center;
         width: 100%;
+
         
       }
       .statistics ul li>span {
-        font-size: 16px;  
+        font-size: 12px; 
+        padding-top:10px; 
       }
       .grid-box1 {
           display: grid;
@@ -348,20 +378,21 @@ body {
 .developers,
 .designers,
 .eligibility,
-.culture,
 .fun,
 .experts,
 .classroom,
-.knowledge,
 .faq,
 .journall {
-  padding:50px 0;
+  padding:20px 10px;
+}
+.culture {
+  padding: 20px 10px;
 }
 .great-people {
     padding:50px 10px;
 }
 .unusual-learning {
-    padding: 50px 0;
+    padding:20px 10px;
 }
 .great-people h2,
 .unusual-learning h2,
@@ -371,10 +402,36 @@ body {
 .culture h2,
 .fun-text h2,
 .experts-text h2,
-.classroom-text h2,
-.knowledge h2 {
+.classroom-text h2 {
   font-size: 25px;
   padding:10px 0;
+}
+.great-people p,
+.unusual-learning p,
+.developers-text p,
+.designers-text p,
+.eligibility p,
+.culture p,
+.fun-text p,
+.experts-text p,
+.classroom-text p,
+.knowledge p {
+  padding: 20px 0;
+  font-size: 15px;
+  width: 100%;
+}
+.developers-text a,
+.designers-text a,
+.knowledge a {
+  padding: 30px 0 50px 0;
+  font-size: 15px;
+}
+.developers ul li,
+.designers ul li {
+  font-size: 25px;
+  color: #fff;
+  height: 200px;
+  text-align: center;
 }
 .unusual-learning>div,
 .eligibility>div,
@@ -403,19 +460,25 @@ body {
   text-align: center;
   font-size: 12px;
   }
+  .fun {
+    margin: 30px 0 0 0;
+  }
 #fun-play {
     display: block;
 }
 #fun-play>span {
     position: relative;
-    top: 120px;
+    top: 90px;
+    left:115px;
     background-color:#03cea4;
     border:none;
     border-radius: 50%;
-    width: 70px;
-  height: 70px;
-  padding:0;
+    width: 50px;
+    height: 50px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 12px;
     }
     .fun-text {
@@ -428,6 +491,10 @@ body {
 .classroom-text {
   padding: 0 10px;
   text-align: center;
+  
+}
+.experts {
+  margin-bottom: 30px;
 }
 .experts-text {
     order: 1;
@@ -447,20 +514,30 @@ body {
 .classroom-text {
     order: 2;
 }
+.knowledge {
+  padding: 20px 10px;
+}
 .knowledge>img {
     width: 100%;
 }
 .knowledge h2 {
-    padding: 20px;
+    padding: 15px 10px;
+    font-size: 25px;
 }
 .faq h2 {
     font-size: 30px;
-    color: #17225a;
     padding: 50px;
     text-align:center ;  
   }
+  .faq div a {
+    font-size:15px;
+  }
+  
   .faq ul li {
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
   }
   .journall {
     background-color: #eee;
@@ -470,8 +547,8 @@ body {
     padding: 30px 10px;
     text-align: center;
   }
-  .journall a {
-    /* display: none; */
+  .journall Link{
+    text-align: center;
   }
   .mentions {
     padding:50px 30px;
@@ -503,7 +580,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 100px;
+    top: 30px;
 }
 #software-intro-head {
     order: 2;
@@ -515,7 +592,7 @@ body {
     order: 3;
 } 
 .software-intro>h1 {
-  font-size: 50px;
+  font-size: 40px;
   padding: 0 10px;
   text-align: center;
 }
@@ -527,7 +604,9 @@ body {
  width: 100%;
 }
 .software-intro>article>p {
-  padding:20px 10px;
+  padding:20px 5px;
+  font-size: 16px;
+  font-weight: 545;
   text-align: center;
 }
 .software-qoute {
@@ -557,6 +636,8 @@ text-decoration: underline;
 }
 .software-expectations>article>p {
 padding: 10px;
+font-size: 16px;
+  font-weight: 545;
 }
 /* SofwareDevelopersPage End */
 
@@ -566,7 +647,7 @@ padding: 10px;
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 100px;
+    top: 30px;
 }
 #product-intro-head {
     order: 2;
@@ -578,7 +659,7 @@ padding: 10px;
     order: 3;
 } 
 .product-intro>h1 {
-  font-size: 50px;
+  font-size: 40px;
   padding: 0 10px;
   text-align: center;
 }
@@ -592,6 +673,8 @@ padding: 10px;
 .product-intro>article>p {
   padding:20px 10px;
   text-align: center;
+  font-size: 16px;
+  font-weight: 545;
 }
 .product-qoute {
 width: 100%;
@@ -620,6 +703,8 @@ text-decoration: underline;
 }
 .product-expectations>article>p {
 padding: 10px;
+font-size: 16px;
+  font-weight: 545;
 }
 .product-expectations>article>#small-text {
 font-size: 16px;
@@ -633,7 +718,7 @@ font-size: 16px;
     justify-content: space-between;
     padding: 0;
     position: relative;
-    top: 100px;
+    top: 50px;
 }
 #apply-intro-head {
     order: 2;
@@ -651,15 +736,13 @@ font-size: 16px;
     width: 100%;
   }
  .apply-intro>h1 {
-    color: #17255A;
     font-size: 25px;
     padding: 20px 30px;
-    font-weight: bolder;
     text-align: center;
  } 
  .apply-intro>article>p {
      padding: 10px;
-     font-size: 16px;
+     font-size: 15px;
      margin-bottom: 12px;
      text-align: center;
  }
@@ -671,24 +754,22 @@ font-size: 16px;
      margin-top: 100px;
  }
  .application-steps>article {
-    padding:30px 10px;
+    padding:20px 10px;
     width:100%;
     text-align: center;
     margin: 0;
  }
  .application-steps>article>h2 {
-     color: #363E50;
-     font-size: 30px;
+     font-size: 25px;
      padding: 10px 0;
  }
  .application-steps>article>p {
-    color: #363E50;
     padding: 10px 0;
 }
 .application-steps>article>span {
-    color:#15D1AA;
     font-size: 16px;
     padding: 10px 0;
+    text-decoration: none;
 }
 #apply-sub {
     display: none;
@@ -702,7 +783,7 @@ font-size: 16px;
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 100px;
+    top: 50px;
 }
 .journal-head {
     background-color: #eee;
@@ -734,7 +815,7 @@ font-size: 16px;
     background-color: #eee;
 }
 .journal-inspiration>div>h6 {
-    color: #15D1AA;
+    text-decoration: none;
     padding: 20px 0 15px 0;
 }
 .journal-inspiration>div>h2 {
@@ -771,6 +852,7 @@ font-size: 16px;
 .journal-cards-container {
     display: flex;
     flex-direction: column;
+    padding:0 10px;
 }
 .journal-cards-container>article {
     width: 100%;
@@ -781,7 +863,7 @@ font-size: 16px;
     text-align: center;
 }
 .journal-cards-container>article>h6 {
-    color: #15D1AA;
+    text-decoration: none;
     padding: 10px 0;
 }
 .journal-cards-container>article>h2 {
@@ -796,7 +878,7 @@ font-size: 16px;
   justify-content: space-between;
   padding: 0 ;
   position: relative;
-    top: 100px;
+    top: 50px;
 }
 #questions-intro-img {
   order: 1;

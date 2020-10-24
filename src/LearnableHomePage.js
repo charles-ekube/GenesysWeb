@@ -9,7 +9,7 @@ class LearnableHomePage extends React.Component {
         return (
             <>
             <LearnableNav />
-            <main>
+            <main className="learnablepage-main-container">
                 <section className="learnable-ad">
                     <article className="coming-soon">
                         <h2>Coming Soon: Learnable '20</h2>
@@ -24,6 +24,7 @@ class LearnableHomePage extends React.Component {
                         </p>
                         <span>Learnable '20 Brochue</span>
                     </article>
+                    <span className="close-ad"><i className="fa fa-times fa-2x"></i></span>
                 </section>
                 <section className="learnable-page-intro">
                     <h1>Everything is Learnable</h1>
@@ -36,14 +37,14 @@ class LearnableHomePage extends React.Component {
                         <div className="item1" id="item1">
                             <Link to="/SoftwareDevelopersPage">
                                 Development
-                                <span><i className="fa fa-angle-down"></i></span> 
+                                <span><i className="fa fa-angle-right"></i></span> 
                             </Link>
                             <p>what to expect</p>
                         </div>
                         <div className="item2" id="item2">
                             <Link to="/ProductDesignPage">
                                 Product Design
-                                <span><i className="fa fa-angle-down"></i></span> 
+                                <span><i className="fa fa-angle-right"></i></span> 
                             </Link>
                             <p>what to expect</p>
                         </div>
@@ -504,8 +505,8 @@ class LearnableHomePage extends React.Component {
                         </ul>
                         </div>
                         <div>
-                        <Link to="/SoftwareDevelopersPage">
-                                    SEE ALL
+                        <Link to="/FaqPage">
+                             SEE ALL
                         </Link>
                         </div>
                         

@@ -27,7 +27,7 @@ function Navigation() {
               <li>CONTACT</li>
               <li>DEVSTUDIO</li>
           </ul>
-        </div>
+        </div> 
   }
     return (
         <nav className="main-nav">

@@ -8,10 +8,30 @@
   width: 100%;
 }
 body {
+  font-size: 16px;
+}
+p,
+li {
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+h1,
+h2,
+h6,
+span,
+button {
   font-family: 'Roboto', sans-serif;
 }
 
   /* landing-page */
+  .landing-page-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 .intro-section {
     padding: 50px 0;
     position: relative;
@@ -116,7 +136,6 @@ body {
     align-self: start;
     font-size:15px;
     padding:30px; 
-    text-decoration: underline;
   }
 .agora-section {
     background-color: #eee;
@@ -135,38 +154,20 @@ body {
 }
 .other-things-we-do-section>ul {
     list-style: none;
-    display: grid;
-    grid-template-columns: 43% 28% 28%;
+    display: flex;
+    flex-wrap: wrap;
 }
-.other-things-we-do-section>ul>.card1 {
-    grid-row-start: 1;
-    grid-column-start: 1;
-    grid-row-end: 2;
-    grid-column-end: 2;
-    display: grid;
-    grid-template-columns: 90% 10%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+.card1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
-
-.other-things-we-do-section>ul>.card2 {
-    grid-row-start: 2;
-    grid-column-start: 1;
-    grid-row-end: 2;
-    grid-column-end: 1;
-    display: grid;
-    padding: 10px;
+.card2, .card3 {
+  width: 38%;
+  padding: 10px 0;
 }
-.other-things-we-do-section>ul>.card3 {
-    grid-row-start: 3;
-    grid-column-start: 3;
-    grid-row-end: 2;
-    grid-column-end: 2;
-    display: grid;
-    padding: 10px;
-    margin-left: -40px;
-
+.card3 {
+  align-self:flex-start;
 }
 .card1>span>p {
     color: #172559;
@@ -174,17 +175,20 @@ body {
     width: 30%;
     font-weight: bolder;
     text-decoration: underline;
+    padding: 0 30px;
 }
 .card2>span>p {
     color: #172559;
     font-size: 20px;
     font-weight: bolder;
+    padding: 10px 0;
     text-align: center;
     text-decoration: underline;
 }
 .card3>span>p {
     width: 70%;
     margin: auto;
+    padding: 10px 0;
     text-decoration: underline;
 }
 .card3>span>p {
@@ -193,9 +197,7 @@ body {
     text-align: center;
     font-weight: bolder;
 }
-.card3>img {
-    margin-bottom: 15px;
-}
+
 
 .teams-section {
     padding: 100px 50px;
@@ -222,7 +224,6 @@ body {
 }
 .teams-section>div>span {
      color: #07a893;
-     text-decoration: underline;
 }
 
 
@@ -280,12 +281,23 @@ body {
 
 
 /* LearnablePage */
+.learnablepage-main-container {
+  display: flex;
+  flex-direction: column;
+}
 .learnable-ad {
   background-color: #EAC435;
   padding: 70px 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  position: relative;
+}
+.learnable-ad .close-ad{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
 }
 .coming-soon {
   color: #17225a;
@@ -342,6 +354,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow:0 16px 24px 2px rgba(228, 227, 227, 0.14),
+  0 6px 30px 5px rgba(0, 0, 0, 0.12),
+  0 8px 10px -7px rgba(0, 0, 0, 0.2); ;
 
 }
 #item1 {
@@ -533,6 +548,8 @@ text-align: center;
 .designers-text a,
 .knowledge a {
   color: #03c49c;
+  text-decoration: none;
+  padding: 20px 0;
 }
 .developers ul li,
 .designers ul li {
@@ -563,12 +580,7 @@ text-align: center;
   top:0;
   text-align: center;
   }
-  #fun-play>span {
-    background-color:#03cea4;
-    border:none;
-    border-radius: 50%;
-    padding: 40px;
-    }
+  
 .experts ul li>img {
   width: 100%;
 }

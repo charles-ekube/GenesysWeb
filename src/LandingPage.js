@@ -5,7 +5,7 @@ import './media.css';
 class LandingPage extends React.Component {
     render() {
         return (
-            <main>
+            <main className="landing-page-main-container">
                 <section className="intro-section">
                         <h2>
                             Genesys Provides Opportunities For Young Nigerian Techies
@@ -79,8 +79,7 @@ class LandingPage extends React.Component {
                             <li className="card3">
                             <img src={require("./stand-project/pinkcode.png")} alt="pinkcode"/>
                             <span><p>Pink summer of code</p></span>
-                            </li>
-                            
+                            </li>  
                         </ul>
                     <h2>Other things we do</h2>
                 </section>
